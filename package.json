@@ -1,0 +1,23 @@
+{
+  "name": "react-native-remark-cli",
+  "version": "1.0.0",
+  "description": "a react-native log library streaming straight to your terminal decorated with fancy colors and real-time regex filtering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node",
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "ink": "^0.3.1"
+  }
+}
